@@ -21,7 +21,7 @@ Usage: ratecheck [MODE]
 Hopefully you haven't already hit the rate limit in this period:
 
 ```shell
-docker run electricwarr/check-docker-ratelimits [MODE]
+docker run electricwarr/dockerhub-check-rate-limit [MODE]
 ```
 
 ## Building and Running a Local Copy
