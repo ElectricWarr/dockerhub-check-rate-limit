@@ -11,8 +11,6 @@ usage='Usage: ratecheck [MODE]
  --interval    Length of a rate limiting period in seconds
  --pretty      Outputs some info prettily-formated. Default if no other option is specified.
  --remaining   Pulls remaining in the period
-
-If no mode is provided, pretty-prints
 '
 
 if [[ $# == 0 ]]; then
